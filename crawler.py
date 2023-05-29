@@ -69,7 +69,7 @@ def search(keyword):
     # db = pymysql.connect(
     #     host = "127.0.0.1",
     #     user = "root",
-    #     password = "bacgve23782",
+    #     password = "123456",
     #     port = 3306,
     #     db = "Topic 3"
     # )
@@ -140,7 +140,7 @@ def search_date(keyword):
     # db = pymysql.connect(
     #     host = "127.0.0.1",
     #     user = "root",
-    #     password = "bacgve23782",
+    #     password = "123456",
     #     port = 3306,
     #     db = "Topic 3"
     # )
@@ -211,7 +211,7 @@ def search_relation(keyword):
     # db = pymysql.connect(
     #     host = "127.0.0.1",
     #     user = "root",
-    #     password = "bacgve23782",
+    #     password = "123456",
     #     port = 3306,
     #     db = "Topic 3"
     # )
