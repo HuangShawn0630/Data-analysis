@@ -61,7 +61,6 @@ def search(keyword):
     filename = f"{keyword}.txt"
     with open(filename,mode="w",encoding="utf-8") as f:
         json.dump(article_list,f,ensure_ascii=False,indent=4)
-        time.sleep(4)
 
 # ===============================================
 #                  匯入MySQL
@@ -132,7 +131,6 @@ def search_date(keyword):
     filename = f"{keyword}.txt"
     with open(filename,mode="w",encoding="utf-8") as f:
         json.dump(article_list,f,ensure_ascii=False,indent=4)
-        time.sleep(4)
 
 # ===============================================
 #                  匯入MySQL
@@ -203,7 +201,6 @@ def search_relation(keyword):
     filename = f"{keyword}_relation.txt"
     with open(filename,mode="w",encoding="utf-8") as f:
         json.dump(article_list,f,ensure_ascii=False,indent=4)
-        time.sleep(4)
 
 # ===============================================
 #                  匯入MySQL
